@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const formData = `noun=${encodeURIComponent(noun)}&adjective=${encodeURIComponent(adjective)}&verb=${encodeURIComponent(verb)}&adverb=${encodeURIComponent(adverb)}&pluralNoun=${encodeURIComponent(pluralNoun)}`;
 
     // Send a POST request to the server
-    fetch('/', {
+    fetch('/ITC505/lab-7/index.html', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
